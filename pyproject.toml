@@ -1,15 +1,17 @@
 [project]
 name = "ceph-mcp-server"
-version = "0.1.2"
+version = "0.1.3"
 description = "Model Context Protocol server for Ceph storage cluster management"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.13"
 authors = [
     { name = "Rajmohan Ramamoorthy", email = "ram.rajmohanr@gmail.com" },
+    { name = "#Teagan42", email = "that@teagantotally.rocks" },
 ]
 maintainers = [
     { name = "Rajmohan Ramamoorthy", email = "ram.rajmohanr@gmail.com" },
+    { name = "#Teagan42", email = "that@teagantotally.rocks" },
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
