@@ -7,9 +7,11 @@ license = "MIT"
 requires-python = ">=3.13"
 authors = [
     { name = "Rajmohan Ramamoorthy", email = "ram.rajmohanr@gmail.com" },
+    { name = "#Teagan42", email = "that@teagantotally.rocks" },
 ]
 maintainers = [
     { name = "Rajmohan Ramamoorthy", email = "ram.rajmohanr@gmail.com" },
+    { name = "#Teagan42", email = "that@teagantotally.rocks" },
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",

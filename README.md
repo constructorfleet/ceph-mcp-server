@@ -75,6 +75,11 @@ The server will log its startup and any connection issues. Look for messages ind
 | `CEPH_CERT_PATH` | Path to custom SSL certificate | - | No |
 | `LOG_LEVEL` | Logging level (DEBUG, INFO, WARNING, ERROR) | `INFO` | No |
 | `MAX_REQUESTS_PER_MINUTE` | Rate limiting for API requests | `60` | No |
+| `MCP_TRANSPORT` | MCP transport to use | `sse` | No |
+| `MCP_SERVER_HOST` | Host MCP server binds to | `0.0.0.0` | If `sse` or `streamable-http` |
+| `MCP_SERVER_PORT` | Port MCP server binds to | `8001` | If `sse` or `streamable-http` |
+| `MCP_SERVER_NAME` | Name of the MCP server | `ceph-storage-assistant` | No |
+| `MCP_SERVER_VERSION` | Version of the MCP server | `0.1.0` | No |
 
 ### Security Considerations
 
@@ -113,6 +118,12 @@ Get detailed health check information for troubleshooting specific issues.
 
 ### 4. `get_host_details`
 Get comprehensive information about a specific host.
+
+### 5. `get_filesystem_summary`
+Get overall filesystems summaries.
+
+### 6. `get_filesystem_details`
+Get specific filesysstem details.
 
 **Parameters:**
 - `hostname`: The name of the host to examine
