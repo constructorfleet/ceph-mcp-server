@@ -1,3 +1,4 @@
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow?logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/constructorfleet)
 # Ceph MCP Server
 
 A Model Context Protocol (MCP) server that enables AI assistants to interact with Ceph storage clusters through natural language. This server provides a bridge between AI tools and your Ceph infrastructure, making storage management more accessible and intuitive.
